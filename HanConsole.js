@@ -52,17 +52,17 @@
 
   HanConsole.info = function(arg) {
     const skins = theme('info');
-    console.log(`%c info %c ${arg}`, skins.head, skins.body);
+    console.log(`%c info %c${arg}`, skins.head, skins.body);
   }
 
   HanConsole.warn = function(arg) {
     const skins = theme('warn');
-    console.log(`%c warn %c ${arg}`, skins.head, skins.body);
+    console.log(`%c warn %c${arg}`, skins.head, skins.body);
   }
 
   HanConsole.error = function(arg) {
     const skins = theme('error');
-    console.log(`%c error %c ${arg}`, skins.head, skins.body);
+    console.log(`%c error %c${arg}`, skins.head, skins.body);
   }
 
 
